@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories ❤️</title>
+    <link rel="stylesheet" href="romantic-styles.css">
+</head>
+<body>
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <div class="container">
+        <h1 class="page-title fade-in">Our Beautiful Memories</h1>
+
+        <div class="music-control">
+            <button class="music-btn" id="musicBtn">
+                <span id="musicIcon">🎵</span> Music
+            </button>
+        </div>
+
+        <div class="memories-grid" id="memoriesGrid">
+            <div class="memory-card" data-index="0">
+                <img src="https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Memory 1">
+                <div class="card-overlay">
+                    <span>Click Me ❤️</span>
+                </div>
+            </div>
+
+            <div class="memory-card" data-index="1">
+                <img src="https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Memory 2">
+                <div class="card-overlay">
+                    <span>Click Me ❤️</span>
+                </div>
+            </div>
+
+            <div class="memory-card" data-index="2">
+                <img src="https://images.pexels.com/photos/1024970/pexels-photo-1024970.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Memory 3">
+                <div class="card-overlay">
+                    <span>Click Me ❤️</span>
+                </div>
+            </div>
+
+            <div class="memory-card" data-index="3">
+                <img src="https://images.pexels.com/photos/1024975/pexels-photo-1024975.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Memory 4">
+                <div class="card-overlay">
+                    <span>Click Me ❤️</span>
+                </div>
+            </div>
+
+            <div class="memory-card" data-index="4">
+                <img src="https://images.pexels.com/photos/1024969/pexels-photo-1024969.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Memory 5">
+                <div class="card-overlay">
+                    <span>Click Me ❤️</span>
+                </div>
+            </div>
+
+            <div class="memory-card" data-index="5">
+                <img src="https://images.pexels.com/photos/1024966/pexels-photo-1024966.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Memory 6">
+                <div class="card-overlay">
+                    <span>Click Me ❤️</span>
+                </div>
+            </div>
+        </div>
+
+        <button class="next-button" onclick="window.location.href='forever.html'">
+            Continue →
+        </button>
+    </div>
+
+    <div class="modal" id="memoryModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeBtn">&times;</button>
+            <div class="modal-shayari" id="modalShayari"></div>
+            <div class="rose-petals" id="rosePetals"></div>
+            <div class="modal-hearts" id="modalHearts"></div>
+        </div>
+    </div>
+
+    <audio id="backgroundMusic" loop>
+        <source src="romantic-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="memories.js"></script>
+</body>
+</html>
